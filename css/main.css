@@ -1,0 +1,216 @@
+/*glpbals */
+
+*{
+    box-sizing: border-box;
+}
+body, h1 , h2 , h3 , h4 , h5 , h5{
+    margin: 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.float-left{
+    float: left;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-50{
+    width: 50%;
+}
+ .p-40{
+    padding: 40px;
+ }
+.text-capitalize{
+    text-transform: capitalize;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.clear-fix{
+    clear: both;
+}
+.descount{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.diamentions{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+
+
+.py-40px{
+    padding: 40px 0;
+}
+.pt-40px{
+    padding-top: 40px;
+}
+.pr-40px{
+    padding-right: 40px;
+}
+
+.pb-40px{
+    padding-bottom: 40px;
+}
+
+.borderadius-10px{
+    border-radius: 10px;
+}
+.margin-20px{
+    margin: 20px 0;
+}
+
+
+
+@font-face {
+    font-family:Roboto-Medium;
+    src: url(../fonts/Roboto/static/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family:Oswald-Bold;
+    src: url(../fonts/Oswald/static/Oswald-Bold.ttf);
+}
+
+body{
+    font-family: "Roboto-Medium", sans-serif;
+}
+
+h1 , h2 , h3 , h4 , h5 , h5{
+    font-family:"Oswald-Bold", sans-serif ;
+}
+
+h1{
+    color: #9E8252;
+}
+
+.gold-font{
+    color:#9E8252;
+}
+
+/*header*/
+
+.header{
+   background-image: url(../images/hero_section.jpg);
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+}
+
+.header .header-content{
+    background-color:rgba(0, 0, 0,0.3);
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    
+}
+
+.our-products .product-item{
+    width: 25%;
+    padding: 10px;
+}
+
+.header .header-content button{
+    background-color:black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+/*gallery*/
+
+.features{
+    background-color: #f1f1f1;
+}
+
+
+
+.gallery .gallery-card{
+    
+    width: 33.33%;
+    padding: 15px;
+}
+
+.gallery .gallery-card img{
+    width: 100%;
+}
+.gallery .gallery-card .inner{
+    background-color:#978869;
+    border-radius: 20px;
+
+}
+
+.gallery .gallery-card .gallery-caption{
+    padding: 10px;
+    color: white;
+}
+/*services*/
+.services{
+    background-color: #f1f1f1;
+}
+ .services .services-card{
+    
+    width: 25%;
+    padding: 15px;
+ }
+
+ .services .services-card img{
+    width: 100%;
+    border-radius: 20px;
+    
+ }
+
+ .services .services-card .services-caption{
+    background-color: rgba(0,0, 0, 0.523);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+
+ }
+
+ .services .services-card .services-caption button{
+    background-color: #978869;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+
+ }
+
+ .services .services-card .inner{
+        position: relative;
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
